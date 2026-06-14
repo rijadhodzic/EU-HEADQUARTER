@@ -56,37 +56,6 @@ What should have happened instead.
 * Screenshots
 * Videos
 * Client Logs (if available)
-
----
-
-## Issue Workflow
-
-Our project board uses the following workflow:
-
-### To Triage
-
-Newly submitted issues waiting for review.
-
-### Backlog
-
-Confirmed issues scheduled for future work.
-
-### Ready
-
-Issues ready for implementation.
-
-### In Progress
-
-Issues actively being worked on.
-
-### In Review
-
-Completed work awaiting testing or verification.
-
-### Done
-
-Resolved and completed issues.
-
 ---
 
 ## Contributing
