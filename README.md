@@ -110,7 +110,7 @@ Join the EU Headquarters community:
 
 **Website:** https://euheadquarter.com
 
-**Discord:** [Insert Discord Invite]
+**Discord:** https://dsc.gg/euhq
 
 ---
 
