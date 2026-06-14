@@ -1,0 +1,85 @@
+name: Bug Report
+description: Report a bug, issue, crash, or unexpected behavior
+title: "[BUG]: "
+labels:
+
+* bug
+
+body:
+
+* type: markdown
+  attributes:
+  value: |
+  Thank you for helping improve Conflict Escalation Modern.
+  Please provide as much information as possible.
+
+* type: textarea
+  id: bug-description
+  attributes:
+  label: Bug Description
+  description: Describe the issue in detail.
+  placeholder: What happened?
+  validations:
+  required: true
+
+* type: textarea
+  id: expected-behavior
+  attributes:
+  label: Expected Behavior
+  description: What should have happened?
+  placeholder: Describe the expected result.
+  validations:
+  required: true
+
+* type: textarea
+  id: reproduction-steps
+  attributes:
+  label: Steps to Reproduce
+  description: Explain how to reproduce the issue.
+  placeholder: |
+  1. Join server
+  2. Spawn vehicle
+  3. Perform action
+  4. Observe issue
+  validations:
+  required: true
+
+* type: input
+  id: server
+  attributes:
+  label: Server Name
+  placeholder: EUHQ Conflict Escalation Modern
+
+* type: input
+  id: map
+  attributes:
+  label: Map
+  placeholder: Everon
+
+* type: dropdown
+  id: faction
+  attributes:
+  label: Faction
+  options:
+  - US
+  - Russia
+  - FIA
+  - Other
+
+* type: input
+  id: game-version
+  attributes:
+  label: Game Version
+  placeholder: 1.4.0.123
+
+* type: textarea
+  id: evidence
+  attributes:
+  label: Screenshots, Videos, or Logs
+  description: Attach screenshots, videos, log files, or links.
+
+* type: textarea
+  id: additional-information
+  attributes:
+  label: Additional Information
+  description: Add any additional details that may help us investigate the issue.
